@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: black;
+  background: #cdcdcd;
 }
 
 body {
@@ -9,14 +9,24 @@ body {
 }
 
 img {
-  display: block;
   width: 100%;
+  border-radius: 2%;
 }
 
-.add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
+h1 {
+  color: #2f4f4f;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (orientation: landscape) {

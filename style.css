@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  background: #cdcdcd;
+}
+
+body {
+  height: inherit;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+h1 {
+  color: #2f4f4f;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (orientation: landscape) {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
